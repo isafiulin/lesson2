@@ -37,4 +37,8 @@ void main() {
   dynamic test = 10;
   print(test);
   print(test.runtimeType);
+
+  const constA = 10;
+  final finalA;
+  finalA = 10;
 }
